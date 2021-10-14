@@ -4,15 +4,15 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>continuum_deployer.solving package &#8212; Continuum Deployer v0.13.0-dev0 documentation</title>
-    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
-    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>continuum_deployer.solving package &#8212; Continuum Deployer v1.0.1 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
     <script src="_static/doctools.js"></script>
-    <script src="_static/language_data.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
    
@@ -31,20 +31,20 @@
 
           <div class="body" role="main">
             
-  <div class="section" id="continuum-deployer-solving-package">
+  <section id="continuum-deployer-solving-package">
 <h1>continuum_deployer.solving package<a class="headerlink" href="#continuum-deployer-solving-package" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="submodules">
+<section id="submodules">
 <h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
-</div>
-<div class="section" id="module-continuum_deployer.solving.greedy">
+</section>
+<section id="module-continuum_deployer.solving.greedy">
 <span id="continuum-deployer-solving-greedy-module"></span><h2>continuum_deployer.solving.greedy module<a class="headerlink" href="#module-continuum_deployer.solving.greedy" title="Permalink to this headline">¶</a></h2>
 <dl class="py class">
-<dt id="continuum_deployer.solving.greedy.Greedy">
-<em class="property">class </em><code class="sig-prename descclassname">continuum_deployer.solving.greedy.</code><code class="sig-name descname">Greedy</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">deployment_entities</span><span class="p">:</span> <span class="n"><a class="reference internal" href="continuum_deployer.resources.html#continuum_deployer.resources.deployment.DeploymentEntity" title="continuum_deployer.resources.deployment.DeploymentEntity">continuum_deployer.resources.deployment.DeploymentEntity</a></span></em>, <em class="sig-param"><span class="n">resources</span><span class="p">:</span> <span class="n"><a class="reference internal" href="continuum_deployer.resources.html#continuum_deployer.resources.resources.Resources" title="continuum_deployer.resources.resources.Resources">continuum_deployer.resources.resources.Resources</a></span></em><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.greedy.Greedy" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="continuum_deployer.solving.greedy.Greedy">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">continuum_deployer.solving.greedy.</span></span><span class="sig-name descname"><span class="pre">Greedy</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">deployment_entities</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="continuum_deployer.resources.html#continuum_deployer.resources.deployment.DeploymentEntity" title="continuum_deployer.resources.deployment.DeploymentEntity"><span class="pre">continuum_deployer.resources.deployment.DeploymentEntity</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">resources</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="continuum_deployer.resources.html#continuum_deployer.resources.resources.Resources" title="continuum_deployer.resources.resources.Resources"><span class="pre">continuum_deployer.resources.resources.Resources</span></a></span></em><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.greedy.Greedy" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference internal" href="#continuum_deployer.solving.solver.Solver" title="continuum_deployer.solving.solver.Solver"><code class="xref py py-class docutils literal notranslate"><span class="pre">continuum_deployer.solving.solver.Solver</span></code></a></p>
 <dl class="py method">
-<dt id="continuum_deployer.solving.greedy.Greedy.deploy_iterate">
-<em class="property">static </em><code class="sig-name descname">deploy_iterate</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">entity</span></em>, <em class="sig-param"><span class="n">resources</span></em><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.greedy.Greedy.deploy_iterate" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="continuum_deployer.solving.greedy.Greedy.deploy_iterate">
+<em class="property"><span class="pre">static</span> </em><span class="sig-name descname"><span class="pre">deploy_iterate</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">entity</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">resources</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.greedy.Greedy.deploy_iterate" title="Permalink to this definition">¶</a></dt>
 <dd><p>Helper that traverses a list of resources and tries to place the given
 deploment entity on one of the resources.</p>
 <dl class="field-list simple">
@@ -64,26 +64,26 @@ deploment entity on one of the resources.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="continuum_deployer.solving.greedy.Greedy.do_matching">
-<code class="sig-name descname">do_matching</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">deployment_entities</span></em>, <em class="sig-param"><span class="n">resources</span></em><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.greedy.Greedy.do_matching" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="continuum_deployer.solving.greedy.Greedy.do_matching">
+<span class="sig-name descname"><span class="pre">do_matching</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">deployment_entities</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">resources</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.greedy.Greedy.do_matching" title="Permalink to this definition">¶</a></dt>
 <dd><p>Does actual deployment to resource matching</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="continuum_deployer.solving.greedy.Greedy.greedy_attr">
-<code class="sig-name descname">greedy_attr</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">entities</span></em>, <em class="sig-param"><span class="n">resources</span></em>, <em class="sig-param"><span class="n">attr</span></em><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.greedy.Greedy.greedy_attr" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="continuum_deployer.solving.greedy.Greedy.greedy_attr">
+<span class="sig-name descname"><span class="pre">greedy_attr</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">entities</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">resources</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">attr</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.greedy.Greedy.greedy_attr" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
-<dt id="continuum_deployer.solving.greedy.Greedy.match">
-<code class="sig-name descname">match</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.greedy.Greedy.match" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="continuum_deployer.solving.greedy.Greedy.match">
+<span class="sig-name descname"><span class="pre">match</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.greedy.Greedy.match" title="Permalink to this definition">¶</a></dt>
 <dd><p>Main matcher method that invokes some preflight checks
 and starts the label based grouped matching</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="continuum_deployer.solving.greedy.Greedy.sort_by_attr">
-<em class="property">static </em><code class="sig-name descname">sort_by_attr</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">items</span></em>, <em class="sig-param"><span class="n">attr</span></em><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.greedy.Greedy.sort_by_attr" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="continuum_deployer.solving.greedy.Greedy.sort_by_attr">
+<em class="property"><span class="pre">static</span> </em><span class="sig-name descname"><span class="pre">sort_by_attr</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">items</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">attr</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.greedy.Greedy.sort_by_attr" title="Permalink to this definition">¶</a></dt>
 <dd><p>Helper function that sorts list of items based on configurable attribute</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -103,21 +103,131 @@ and starts the label based grouped matching</p>
 
 </dd></dl>
 
-</div>
-<div class="section" id="module-continuum_deployer.solving.sat">
-<span id="continuum-deployer-solving-sat-module"></span><h2>continuum_deployer.solving.sat module<a class="headerlink" href="#module-continuum_deployer.solving.sat" title="Permalink to this headline">¶</a></h2>
+</section>
+<section id="module-continuum_deployer.solving.rbmm">
+<span id="continuum-deployer-solving-rbmm-module"></span><h2>continuum_deployer.solving.rbmm module<a class="headerlink" href="#module-continuum_deployer.solving.rbmm" title="Permalink to this headline">¶</a></h2>
 <dl class="py class">
-<dt id="continuum_deployer.solving.sat.SAT">
-<em class="property">class </em><code class="sig-prename descclassname">continuum_deployer.solving.sat.</code><code class="sig-name descname">SAT</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">deployment_entities</span><span class="p">:</span> <span class="n"><a class="reference internal" href="continuum_deployer.resources.html#continuum_deployer.resources.deployment.DeploymentEntity" title="continuum_deployer.resources.deployment.DeploymentEntity">continuum_deployer.resources.deployment.DeploymentEntity</a></span></em>, <em class="sig-param"><span class="n">resources</span><span class="p">:</span> <span class="n"><a class="reference internal" href="continuum_deployer.resources.html#continuum_deployer.resources.resources.Resources" title="continuum_deployer.resources.resources.Resources">continuum_deployer.resources.resources.Resources</a></span></em><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.sat.SAT" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="continuum_deployer.solving.rbmm.Rbmm">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">continuum_deployer.solving.rbmm.</span></span><span class="sig-name descname"><span class="pre">Rbmm</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">deployment_entities</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="continuum_deployer.resources.html#continuum_deployer.resources.deployment.DeploymentEntity" title="continuum_deployer.resources.deployment.DeploymentEntity"><span class="pre">continuum_deployer.resources.deployment.DeploymentEntity</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">resources</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="continuum_deployer.resources.html#continuum_deployer.resources.resources.Resources" title="continuum_deployer.resources.resources.Resources"><span class="pre">continuum_deployer.resources.resources.Resources</span></a></span></em><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.rbmm.Rbmm" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference internal" href="#continuum_deployer.solving.solver.Solver" title="continuum_deployer.solving.solver.Solver"><code class="xref py py-class docutils literal notranslate"><span class="pre">continuum_deployer.solving.solver.Solver</span></code></a></p>
-<dl class="py attribute">
-<dt id="continuum_deployer.solving.sat.SAT.CPU_SCALE_FACTOR">
-<code class="sig-name descname">CPU_SCALE_FACTOR</code><em class="property"> = 1000.0</em><a class="headerlink" href="#continuum_deployer.solving.sat.SAT.CPU_SCALE_FACTOR" title="Permalink to this definition">¶</a></dt>
+<dl class="py method">
+<dt class="sig sig-object py" id="continuum_deployer.solving.rbmm.Rbmm.deploy_iterate">
+<em class="property"><span class="pre">static</span> </em><span class="sig-name descname"><span class="pre">deploy_iterate</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">entity</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">resources</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.rbmm.Rbmm.deploy_iterate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Helper that traverses a list of resources and tries to place the given
+deploment entity on one of the resources.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>entity</strong> (<a class="reference internal" href="continuum_deployer.resources.html#continuum_deployer.resources.deployment.DeploymentEntity" title="continuum_deployer.resources.deployment.DeploymentEntity"><code class="xref py py-class docutils literal notranslate"><span class="pre">continuum_deployer.resources.deployment.DeploymentEntity</span></code></a>) – deployment entity that should be placed</p></li>
+<li><p><strong>resources</strong> (<em>list</em>) – list of resource entities that are valid targets</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>boolean flag representing the success of the placement attempt</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>bool</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="continuum_deployer.solving.rbmm.Rbmm.do_matching">
+<span class="sig-name descname"><span class="pre">do_matching</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">deployment_entities</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">resources</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.rbmm.Rbmm.do_matching" title="Permalink to this definition">¶</a></dt>
+<dd><p>Does actual deployment to resource matching</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="continuum_deployer.solving.rbmm.Rbmm.matchop">
+<span class="sig-name descname"><span class="pre">matchop</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">rfval</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">op</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">val</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.rbmm.Rbmm.matchop" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
-<dt id="continuum_deployer.solving.sat.SAT.do_matching">
-<code class="sig-name descname">do_matching</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">deployment_entities</span></em>, <em class="sig-param"><span class="n">resources</span></em><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.sat.SAT.do_matching" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="continuum_deployer.solving.rbmm.Rbmm.printablerules">
+<span class="sig-name descname"><span class="pre">printablerules</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">r</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.rbmm.Rbmm.printablerules" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="continuum_deployer.solving.rbmm.Rbmm.rbmm_match">
+<span class="sig-name descname"><span class="pre">rbmm_match</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">app</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">res</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dep_rules</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.rbmm.Rbmm.rbmm_match" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-continuum_deployer.solving.rbmm_1210">
+<span id="continuum-deployer-solving-rbmm-1210-module"></span><h2>continuum_deployer.solving.rbmm_1210 module<a class="headerlink" href="#module-continuum_deployer.solving.rbmm_1210" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="continuum_deployer.solving.rbmm_1210.Matchmaker">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">continuum_deployer.solving.rbmm_1210.</span></span><span class="sig-name descname"><span class="pre">Matchmaker</span></span><a class="headerlink" href="#continuum_deployer.solving.rbmm_1210.Matchmaker" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="continuum_deployer.solving.rbmm_1210.Matchmaker.match">
+<span class="sig-name descname"><span class="pre">match</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">app</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">res</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dep_rules</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.rbmm_1210.Matchmaker.match" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="continuum_deployer.solving.rbmm_1210.Matchmaker.matchop">
+<span class="sig-name descname"><span class="pre">matchop</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">rfval</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">op</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">val</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.rbmm_1210.Matchmaker.matchop" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="continuum_deployer.solving.rbmm_1210.Matchmaker.printablerules">
+<span class="sig-name descname"><span class="pre">printablerules</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">r</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.rbmm_1210.Matchmaker.printablerules" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-continuum_deployer.solving.rbmm_with_acc_rules">
+<span id="continuum-deployer-solving-rbmm-with-acc-rules-module"></span><h2>continuum_deployer.solving.rbmm_with_acc_rules module<a class="headerlink" href="#module-continuum_deployer.solving.rbmm_with_acc_rules" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="continuum_deployer.solving.rbmm_with_acc_rules.Matchmaker">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">continuum_deployer.solving.rbmm_with_acc_rules.</span></span><span class="sig-name descname"><span class="pre">Matchmaker</span></span><a class="headerlink" href="#continuum_deployer.solving.rbmm_with_acc_rules.Matchmaker" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="continuum_deployer.solving.rbmm_with_acc_rules.Matchmaker.match">
+<span class="sig-name descname"><span class="pre">match</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">app</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">res</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dep_rules</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">acc_rules</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">level</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.rbmm_with_acc_rules.Matchmaker.match" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="continuum_deployer.solving.rbmm_with_acc_rules.Matchmaker.matchop">
+<span class="sig-name descname"><span class="pre">matchop</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">rfval</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">op</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">val</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.rbmm_with_acc_rules.Matchmaker.matchop" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="continuum_deployer.solving.rbmm_with_acc_rules.Matchmaker.printablerules">
+<span class="sig-name descname"><span class="pre">printablerules</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">r</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.rbmm_with_acc_rules.Matchmaker.printablerules" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-continuum_deployer.solving.sat">
+<span id="continuum-deployer-solving-sat-module"></span><h2>continuum_deployer.solving.sat module<a class="headerlink" href="#module-continuum_deployer.solving.sat" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="continuum_deployer.solving.sat.CB">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">continuum_deployer.solving.sat.</span></span><span class="sig-name descname"><span class="pre">CB</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">solver</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.sat.CB" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">ortools.sat.python.cp_model.CpSolverSolutionCallback</span></code></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="continuum_deployer.solving.sat.CB.on_solution_callback">
+<span class="sig-name descname"><span class="pre">on_solution_callback</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.sat.CB.on_solution_callback" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="continuum_deployer.solving.sat.SAT">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">continuum_deployer.solving.sat.</span></span><span class="sig-name descname"><span class="pre">SAT</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">deployment_entities</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="continuum_deployer.resources.html#continuum_deployer.resources.deployment.DeploymentEntity" title="continuum_deployer.resources.deployment.DeploymentEntity"><span class="pre">continuum_deployer.resources.deployment.DeploymentEntity</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">resources</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="continuum_deployer.resources.html#continuum_deployer.resources.resources.Resources" title="continuum_deployer.resources.resources.Resources"><span class="pre">continuum_deployer.resources.resources.Resources</span></a></span></em><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.sat.SAT" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#continuum_deployer.solving.solver.Solver" title="continuum_deployer.solving.solver.Solver"><code class="xref py py-class docutils literal notranslate"><span class="pre">continuum_deployer.solving.solver.Solver</span></code></a></p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="continuum_deployer.solving.sat.SAT.CPU_SCALE_FACTOR">
+<span class="sig-name descname"><span class="pre">CPU_SCALE_FACTOR</span></span><em class="property"> <span class="pre">=</span> <span class="pre">1000.0</span></em><a class="headerlink" href="#continuum_deployer.solving.sat.SAT.CPU_SCALE_FACTOR" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="continuum_deployer.solving.sat.SAT.do_matching">
+<span class="sig-name descname"><span class="pre">do_matching</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">deployment_entities</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">resources</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.sat.SAT.do_matching" title="Permalink to this definition">¶</a></dt>
 <dd><p>Actual solver implementation. Uses constraint programming to find an optimal solution
 for the deployment placing task.</p>
 <dl class="field-list simple">
@@ -131,20 +241,20 @@ for the deployment placing task.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="continuum_deployer.solving.sat.SAT.get_deployment_names">
-<em class="property">static </em><code class="sig-name descname">get_deployment_names</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">deployments</span></em><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.sat.SAT.get_deployment_names" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="continuum_deployer.solving.sat.SAT.get_deployment_names">
+<em class="property"><span class="pre">static</span> </em><span class="sig-name descname"><span class="pre">get_deployment_names</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">deployments</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.sat.SAT.get_deployment_names" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
-<dt id="continuum_deployer.solving.sat.SAT.match">
-<code class="sig-name descname">match</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.sat.SAT.match" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="continuum_deployer.solving.sat.SAT.match">
+<span class="sig-name descname"><span class="pre">match</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.sat.SAT.match" title="Permalink to this definition">¶</a></dt>
 <dd><p>Main matcher method that invokes some preflight checks
 and starts the label based grouped matching</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="continuum_deployer.solving.sat.SAT.scale_cpu_values">
-<em class="property">static </em><code class="sig-name descname">scale_cpu_values</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">entities</span></em>, <em class="sig-param"><span class="n">idle</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.sat.SAT.scale_cpu_values" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="continuum_deployer.solving.sat.SAT.scale_cpu_values">
+<em class="property"><span class="pre">static</span> </em><span class="sig-name descname"><span class="pre">scale_cpu_values</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">entities</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">idle</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.sat.SAT.scale_cpu_values" title="Permalink to this definition">¶</a></dt>
 <dd><p>Helper function that scales cpu values to integers.
 Necessary for the digestion trough the CP-SAT solver.</p>
 <dl class="field-list simple">
@@ -165,21 +275,21 @@ Necessary for the digestion trough the CP-SAT solver.</p>
 
 </dd></dl>
 
-</div>
-<div class="section" id="module-continuum_deployer.solving.solver">
+</section>
+<section id="module-continuum_deployer.solving.solver">
 <span id="continuum-deployer-solving-solver-module"></span><h2>continuum_deployer.solving.solver module<a class="headerlink" href="#module-continuum_deployer.solving.solver" title="Permalink to this headline">¶</a></h2>
 <dl class="py class">
-<dt id="continuum_deployer.solving.solver.Solver">
-<em class="property">class </em><code class="sig-prename descclassname">continuum_deployer.solving.solver.</code><code class="sig-name descname">Solver</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">deployment_entities</span><span class="p">:</span> <span class="n"><a class="reference internal" href="continuum_deployer.resources.html#continuum_deployer.resources.deployment.DeploymentEntity" title="continuum_deployer.resources.deployment.DeploymentEntity">continuum_deployer.resources.deployment.DeploymentEntity</a></span></em>, <em class="sig-param"><span class="n">resources</span><span class="p">:</span> <span class="n"><a class="reference internal" href="continuum_deployer.resources.html#continuum_deployer.resources.resources.Resources" title="continuum_deployer.resources.resources.Resources">continuum_deployer.resources.resources.Resources</a></span></em><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.solver.Solver" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="continuum_deployer.solving.solver.Solver">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">continuum_deployer.solving.solver.</span></span><span class="sig-name descname"><span class="pre">Solver</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">deployment_entities</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="continuum_deployer.resources.html#continuum_deployer.resources.deployment.DeploymentEntity" title="continuum_deployer.resources.deployment.DeploymentEntity"><span class="pre">continuum_deployer.resources.deployment.DeploymentEntity</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">resources</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="continuum_deployer.resources.html#continuum_deployer.resources.resources.Resources" title="continuum_deployer.resources.resources.Resources"><span class="pre">continuum_deployer.resources.resources.Resources</span></a></span></em><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.solver.Solver" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">yapsy.IPlugin.IPlugin</span></code></p>
 <dl class="py attribute">
-<dt id="continuum_deployer.solving.solver.Solver.UNLABELED_TOKEN">
-<code class="sig-name descname">UNLABELED_TOKEN</code><em class="property"> = 'unlabeled'</em><a class="headerlink" href="#continuum_deployer.solving.solver.Solver.UNLABELED_TOKEN" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="continuum_deployer.solving.solver.Solver.UNLABELED_TOKEN">
+<span class="sig-name descname"><span class="pre">UNLABELED_TOKEN</span></span><em class="property"> <span class="pre">=</span> <span class="pre">'unlabeled'</span></em><a class="headerlink" href="#continuum_deployer.solving.solver.Solver.UNLABELED_TOKEN" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
-<dt id="continuum_deployer.solving.solver.Solver.check_upper_bound">
-<code class="sig-name descname">check_upper_bound</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">entities</span></em>, <em class="sig-param"><span class="n">resources</span></em><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.solver.Solver.check_upper_bound" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="continuum_deployer.solving.solver.Solver.check_upper_bound">
+<span class="sig-name descname"><span class="pre">check_upper_bound</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">entities</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">resources</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.solver.Solver.check_upper_bound" title="Permalink to this definition">¶</a></dt>
 <dd><p>Helper that iterates all deployment and resources entities to check
 if a certain deployment exceeds the largest available resource.</p>
 <dl class="field-list simple">
@@ -196,14 +306,14 @@ if a certain deployment exceeds the largest available resource.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="continuum_deployer.solving.solver.Solver.do_matching">
-<code class="sig-name descname">do_matching</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">deployment_entities</span></em>, <em class="sig-param"><span class="n">resources</span></em><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.solver.Solver.do_matching" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="continuum_deployer.solving.solver.Solver.do_matching">
+<span class="sig-name descname"><span class="pre">do_matching</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">deployment_entities</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">resources</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.solver.Solver.do_matching" title="Permalink to this definition">¶</a></dt>
 <dd><p>Does actual deployment to resource matching</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="continuum_deployer.solving.solver.Solver.get_config">
-<code class="sig-name descname">get_config</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.solver.Solver.get_config" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="continuum_deployer.solving.solver.Solver.get_config">
+<span class="sig-name descname"><span class="pre">get_config</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.solver.Solver.get_config" title="Permalink to this definition">¶</a></dt>
 <dd><p>Getter for current solver config</p>
 <dl class="field-list simple">
 <dt class="field-odd">Returns</dt>
@@ -216,23 +326,23 @@ if a certain deployment exceeds the largest available resource.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="continuum_deployer.solving.solver.Solver.get_deployment_entities">
-<code class="sig-name descname">get_deployment_entities</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.solver.Solver.get_deployment_entities" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="continuum_deployer.solving.solver.Solver.get_deployment_entities">
+<span class="sig-name descname"><span class="pre">get_deployment_entities</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.solver.Solver.get_deployment_entities" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
-<dt id="continuum_deployer.solving.solver.Solver.get_placement_errors">
-<code class="sig-name descname">get_placement_errors</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.solver.Solver.get_placement_errors" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="continuum_deployer.solving.solver.Solver.get_placement_errors">
+<span class="sig-name descname"><span class="pre">get_placement_errors</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.solver.Solver.get_placement_errors" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
-<dt id="continuum_deployer.solving.solver.Solver.get_resources">
-<code class="sig-name descname">get_resources</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.solver.Solver.get_resources" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="continuum_deployer.solving.solver.Solver.get_resources">
+<span class="sig-name descname"><span class="pre">get_resources</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.solver.Solver.get_resources" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
-<dt id="continuum_deployer.solving.solver.Solver.group">
-<code class="sig-name descname">group</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">entities</span></em><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.solver.Solver.group" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="continuum_deployer.solving.solver.Solver.group">
+<span class="sig-name descname"><span class="pre">group</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">entities</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.solver.Solver.group" title="Permalink to this definition">¶</a></dt>
 <dd><p>Helper function that creates a dict datastructure containing
 groups of elements that have the same labels assigned</p>
 <dl class="field-list simple">
@@ -249,33 +359,33 @@ groups of elements that have the same labels assigned</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="continuum_deployer.solving.solver.Solver.match">
-<code class="sig-name descname">match</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.solver.Solver.match" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="continuum_deployer.solving.solver.Solver.match">
+<span class="sig-name descname"><span class="pre">match</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.solver.Solver.match" title="Permalink to this definition">¶</a></dt>
 <dd><p>Main matcher method that invokes some preflight checks
 and starts the label based grouped matching</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="continuum_deployer.solving.solver.Solver.match_labeled">
-<code class="sig-name descname">match_labeled</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.solver.Solver.match_labeled" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="continuum_deployer.solving.solver.Solver.match_labeled">
+<span class="sig-name descname"><span class="pre">match_labeled</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.solver.Solver.match_labeled" title="Permalink to this definition">¶</a></dt>
 <dd><p>Handles group based label matching. Functions calls actual solver implementation do_matching()
 multiple times and takes care of the deployment constrains enforced by the assigned labels.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="continuum_deployer.solving.solver.Solver.print_resources">
-<code class="sig-name descname">print_resources</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.solver.Solver.print_resources" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="continuum_deployer.solving.solver.Solver.print_resources">
+<span class="sig-name descname"><span class="pre">print_resources</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.solver.Solver.print_resources" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
-<dt id="continuum_deployer.solving.solver.Solver.reset_matching">
-<code class="sig-name descname">reset_matching</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.solver.Solver.reset_matching" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="continuum_deployer.solving.solver.Solver.reset_matching">
+<span class="sig-name descname"><span class="pre">reset_matching</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.solver.Solver.reset_matching" title="Permalink to this definition">¶</a></dt>
 <dd><p>Resets current matching state of solver</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="continuum_deployer.solving.solver.Solver.set_config_value">
-<code class="sig-name descname">set_config_value</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">value</span></em><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.solver.Solver.set_config_value" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="continuum_deployer.solving.solver.Solver.set_config_value">
+<span class="sig-name descname"><span class="pre">set_config_value</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.solver.Solver.set_config_value" title="Permalink to this definition">¶</a></dt>
 <dd><p>Setter that overwrites or adds a specific solver config value</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -285,22 +395,22 @@ multiple times and takes care of the deployment constrains enforced by the assig
 </dd></dl>
 
 <dl class="py method">
-<dt id="continuum_deployer.solving.solver.Solver.set_deployment_entities">
-<code class="sig-name descname">set_deployment_entities</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">deployments</span></em><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.solver.Solver.set_deployment_entities" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="continuum_deployer.solving.solver.Solver.set_deployment_entities">
+<span class="sig-name descname"><span class="pre">set_deployment_entities</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">deployments</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.solver.Solver.set_deployment_entities" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
-<dt id="continuum_deployer.solving.solver.Solver.set_resources">
-<code class="sig-name descname">set_resources</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">resources</span></em><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.solver.Solver.set_resources" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="continuum_deployer.solving.solver.Solver.set_resources">
+<span class="sig-name descname"><span class="pre">set_resources</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">resources</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#continuum_deployer.solving.solver.Solver.set_resources" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>
 
-</div>
-<div class="section" id="module-continuum_deployer.solving">
+</section>
+<section id="module-continuum_deployer.solving">
 <span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-continuum_deployer.solving" title="Permalink to this headline">¶</a></h2>
-</div>
-</div>
+</section>
+</section>
 
 
           </div>
@@ -331,7 +441,7 @@ multiple times and takes care of the deployment constrains enforced by the assig
   <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="search.html" method="get">
-      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -353,7 +463,7 @@ multiple times and takes care of the deployment constrains enforced by the assig
       &copy;2020, Daniel Hass.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.2.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.2.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

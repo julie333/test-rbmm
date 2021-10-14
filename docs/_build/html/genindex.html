@@ -5,14 +5,13 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Index &#8212; Continuum Deployer v0.13.0-dev0 documentation</title>
-    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
-    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <title>Index &#8212; Continuum Deployer v1.0.1 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
     <script src="_static/doctools.js"></script>
-    <script src="_static/language_data.js"></script>
     <link rel="index" title="Index" href="#" />
     <link rel="search" title="Search" href="search.html" />
    
@@ -62,11 +61,13 @@
   <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="continuum_deployer.resources.html#continuum_deployer.resources.resource_entity.ResourceEntity.add_deployment">add_deployment() (continuum_deployer.resources.resource_entity.ResourceEntity method)</a>
 </li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="continuum_deployer.utils.html#continuum_deployer.utils.plugin_loader.PluginLoader.add_plugins_path">add_plugins_path() (continuum_deployer.utils.plugin_loader.PluginLoader method)</a>
 </li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="continuum_deployer.utils.html#continuum_deployer.utils.config.Config.add_setting">add_setting() (continuum_deployer.utils.config.Config method)</a>
+</li>
+      <li><a href="continuum_deployer.utils.html#continuum_deployer.utils.match_cli.MatchCli.automatch">automatch() (continuum_deployer.utils.match_cli.MatchCli method)</a>
 </li>
   </ul></td>
 </tr></table>
@@ -74,6 +75,8 @@
 <h2 id="C">C</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="continuum_deployer.solving.html#continuum_deployer.solving.sat.CB">CB (class in continuum_deployer.solving.sat)</a>
+</li>
       <li><a href="continuum_deployer.utils.html#continuum_deployer.utils.plugin_manager.CDPluginManager">CDPluginManager (class in continuum_deployer.utils.plugin_manager)</a>
 </li>
       <li><a href="continuum_deployer.resources.html#continuum_deployer.resources.resources.Resources.check_mandatory_fields">check_mandatory_fields() (continuum_deployer.resources.resources.Resources method)</a>
@@ -205,6 +208,27 @@
 </li>
       </ul></li>
       <li>
+    continuum_deployer.solving.rbmm
+
+      <ul>
+        <li><a href="continuum_deployer.solving.html#module-continuum_deployer.solving.rbmm">module</a>
+</li>
+      </ul></li>
+      <li>
+    continuum_deployer.solving.rbmm_1210
+
+      <ul>
+        <li><a href="continuum_deployer.solving.html#module-continuum_deployer.solving.rbmm_1210">module</a>
+</li>
+      </ul></li>
+      <li>
+    continuum_deployer.solving.rbmm_with_acc_rules
+
+      <ul>
+        <li><a href="continuum_deployer.solving.html#module-continuum_deployer.solving.rbmm_with_acc_rules">module</a>
+</li>
+      </ul></li>
+      <li>
     continuum_deployer.solving.sat
 
       <ul>
@@ -230,13 +254,6 @@
 
       <ul>
         <li><a href="continuum_deployer.utils.html#module-continuum_deployer.utils.config">module</a>
-</li>
-      </ul></li>
-      <li>
-    continuum_deployer.utils.dummy
-
-      <ul>
-        <li><a href="continuum_deployer.utils.html#module-continuum_deployer.utils.dummy">module</a>
 </li>
       </ul></li>
       <li>
@@ -298,7 +315,11 @@
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="continuum_deployer.solving.html#continuum_deployer.solving.greedy.Greedy.deploy_iterate">deploy_iterate() (continuum_deployer.solving.greedy.Greedy static method)</a>
+
+      <ul>
+        <li><a href="continuum_deployer.solving.html#continuum_deployer.solving.rbmm.Rbmm.deploy_iterate">(continuum_deployer.solving.rbmm.Rbmm static method)</a>
 </li>
+      </ul></li>
       <li><a href="continuum_deployer.utils.html#continuum_deployer.utils.match_cli.Settings.deployment_entities">deployment_entities (continuum_deployer.utils.match_cli.Settings attribute)</a>
 </li>
       <li><a href="continuum_deployer.resources.html#continuum_deployer.resources.deployment.DeploymentEntity">DeploymentEntity (class in continuum_deployer.resources.deployment)</a>
@@ -308,6 +329,8 @@
       <li><a href="continuum_deployer.solving.html#continuum_deployer.solving.greedy.Greedy.do_matching">do_matching() (continuum_deployer.solving.greedy.Greedy method)</a>
 
       <ul>
+        <li><a href="continuum_deployer.solving.html#continuum_deployer.solving.rbmm.Rbmm.do_matching">(continuum_deployer.solving.rbmm.Rbmm method)</a>
+</li>
         <li><a href="continuum_deployer.solving.html#continuum_deployer.solving.sat.SAT.do_matching">(continuum_deployer.solving.sat.SAT method)</a>
 </li>
         <li><a href="continuum_deployer.solving.html#continuum_deployer.solving.solver.Solver.do_matching">(continuum_deployer.solving.solver.Solver method)</a>
@@ -483,13 +506,15 @@
 <h2 id="M">M</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="continuum_deployer.utils.html#continuum_deployer.utils.dummy.main">main() (in module continuum_deployer.utils.dummy)</a>
-</li>
       <li><a href="continuum_deployer.resources.html#continuum_deployer.resources.resources.Resources.MANDATORY_FIELDS">MANDATORY_FIELDS (continuum_deployer.resources.resources.Resources attribute)</a>
 </li>
       <li><a href="continuum_deployer.solving.html#continuum_deployer.solving.greedy.Greedy.match">match() (continuum_deployer.solving.greedy.Greedy method)</a>
 
       <ul>
+        <li><a href="continuum_deployer.solving.html#continuum_deployer.solving.rbmm_1210.Matchmaker.match">(continuum_deployer.solving.rbmm_1210.Matchmaker method)</a>
+</li>
+        <li><a href="continuum_deployer.solving.html#continuum_deployer.solving.rbmm_with_acc_rules.Matchmaker.match">(continuum_deployer.solving.rbmm_with_acc_rules.Matchmaker method)</a>
+</li>
         <li><a href="continuum_deployer.solving.html#continuum_deployer.solving.sat.SAT.match">(continuum_deployer.solving.sat.SAT method)</a>
 </li>
         <li><a href="continuum_deployer.solving.html#continuum_deployer.solving.solver.Solver.match">(continuum_deployer.solving.solver.Solver method)</a>
@@ -499,6 +524,20 @@
 </li>
       <li><a href="continuum_deployer.utils.html#continuum_deployer.utils.match_cli.MatchCli">MatchCli (class in continuum_deployer.utils.match_cli)</a>
 </li>
+      <li><a href="continuum_deployer.solving.html#continuum_deployer.solving.rbmm_1210.Matchmaker">Matchmaker (class in continuum_deployer.solving.rbmm_1210)</a>
+
+      <ul>
+        <li><a href="continuum_deployer.solving.html#continuum_deployer.solving.rbmm_with_acc_rules.Matchmaker">(class in continuum_deployer.solving.rbmm_with_acc_rules)</a>
+</li>
+      </ul></li>
+      <li><a href="continuum_deployer.solving.html#continuum_deployer.solving.rbmm.Rbmm.matchop">matchop() (continuum_deployer.solving.rbmm.Rbmm method)</a>
+
+      <ul>
+        <li><a href="continuum_deployer.solving.html#continuum_deployer.solving.rbmm_1210.Matchmaker.matchop">(continuum_deployer.solving.rbmm_1210.Matchmaker method)</a>
+</li>
+        <li><a href="continuum_deployer.solving.html#continuum_deployer.solving.rbmm_with_acc_rules.Matchmaker.matchop">(continuum_deployer.solving.rbmm_with_acc_rules.Matchmaker method)</a>
+</li>
+      </ul></li>
       <li><a href="continuum_deployer.resources.html#continuum_deployer.resources.deployment.DeploymentEntity.memory">memory (continuum_deployer.resources.deployment.DeploymentEntity attribute)</a>
 
       <ul>
@@ -543,6 +582,12 @@
 </li>
         <li><a href="continuum_deployer.solving.html#module-continuum_deployer.solving.greedy">continuum_deployer.solving.greedy</a>
 </li>
+        <li><a href="continuum_deployer.solving.html#module-continuum_deployer.solving.rbmm">continuum_deployer.solving.rbmm</a>
+</li>
+        <li><a href="continuum_deployer.solving.html#module-continuum_deployer.solving.rbmm_1210">continuum_deployer.solving.rbmm_1210</a>
+</li>
+        <li><a href="continuum_deployer.solving.html#module-continuum_deployer.solving.rbmm_with_acc_rules">continuum_deployer.solving.rbmm_with_acc_rules</a>
+</li>
         <li><a href="continuum_deployer.solving.html#module-continuum_deployer.solving.sat">continuum_deployer.solving.sat</a>
 </li>
         <li><a href="continuum_deployer.solving.html#module-continuum_deployer.solving.solver">continuum_deployer.solving.solver</a>
@@ -550,8 +595,6 @@
         <li><a href="continuum_deployer.utils.html#module-continuum_deployer.utils">continuum_deployer.utils</a>
 </li>
         <li><a href="continuum_deployer.utils.html#module-continuum_deployer.utils.config">continuum_deployer.utils.config</a>
-</li>
-        <li><a href="continuum_deployer.utils.html#module-continuum_deployer.utils.dummy">continuum_deployer.utils.dummy</a>
 </li>
         <li><a href="continuum_deployer.utils.html#module-continuum_deployer.utils.exceptions">continuum_deployer.utils.exceptions</a>
 </li>
@@ -606,6 +649,8 @@
 </li>
       <li><a href="continuum_deployer.utils.html#continuum_deployer.utils.match_cli.MatchCli.on_enter_start">on_enter_start() (continuum_deployer.utils.match_cli.MatchCli method)</a>
 </li>
+      <li><a href="continuum_deployer.solving.html#continuum_deployer.solving.sat.CB.on_solution_callback">on_solution_callback() (continuum_deployer.solving.sat.CB method)</a>
+</li>
   </ul></td>
 </tr></table>
 
@@ -628,8 +673,6 @@
 </li>
       <li><a href="continuum_deployer.utils.html#continuum_deployer.utils.plugin_loader.PluginLoader">PluginLoader (class in continuum_deployer.utils.plugin_loader)</a>
 </li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="continuum_deployer.utils.html#continuum_deployer.utils.ui.UI.pretty_label_string">pretty_label_string() (continuum_deployer.utils.ui.UI static method)</a>
 </li>
       <li><a href="continuum_deployer.resources.html#continuum_deployer.resources.deployment.DeploymentEntity.print">print() (continuum_deployer.resources.deployment.DeploymentEntity method)</a>
@@ -638,6 +681,8 @@
         <li><a href="continuum_deployer.resources.html#continuum_deployer.resources.resource_entity.ResourceEntity.print">(continuum_deployer.resources.resource_entity.ResourceEntity method)</a>
 </li>
       </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="continuum_deployer.dsl.importer.html#continuum_deployer.dsl.importer.importer.Importer.print_app_modules">print_app_modules() (continuum_deployer.dsl.importer.importer.Importer method)</a>
 </li>
       <li><a href="continuum_deployer.utils.html#continuum_deployer.utils.ui.UI.print_percent_bar">print_percent_bar() (continuum_deployer.utils.ui.UI static method)</a>
@@ -648,6 +693,14 @@
         <li><a href="continuum_deployer.solving.html#continuum_deployer.solving.solver.Solver.print_resources">(continuum_deployer.solving.solver.Solver method)</a>
 </li>
       </ul></li>
+      <li><a href="continuum_deployer.solving.html#continuum_deployer.solving.rbmm.Rbmm.printablerules">printablerules() (continuum_deployer.solving.rbmm.Rbmm method)</a>
+
+      <ul>
+        <li><a href="continuum_deployer.solving.html#continuum_deployer.solving.rbmm_1210.Matchmaker.printablerules">(continuum_deployer.solving.rbmm_1210.Matchmaker method)</a>
+</li>
+        <li><a href="continuum_deployer.solving.html#continuum_deployer.solving.rbmm_with_acc_rules.Matchmaker.printablerules">(continuum_deployer.solving.rbmm_with_acc_rules.Matchmaker method)</a>
+</li>
+      </ul></li>
       <li><a href="continuum_deployer.utils.html#continuum_deployer.utils.ui.UI.prompt_std">prompt_std() (continuum_deployer.utils.ui.UI static method)</a>
 </li>
   </ul></td>
@@ -656,16 +709,20 @@
 <h2 id="R">R</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="continuum_deployer.solving.html#continuum_deployer.solving.rbmm.Rbmm">Rbmm (class in continuum_deployer.solving.rbmm)</a>
+</li>
+      <li><a href="continuum_deployer.solving.html#continuum_deployer.solving.rbmm.Rbmm.rbmm_match">rbmm_match() (continuum_deployer.solving.rbmm.Rbmm method)</a>
+</li>
       <li><a href="continuum_deployer.utils.html#continuum_deployer.utils.exceptions.RequirementsError">RequirementsError</a>
 </li>
       <li><a href="continuum_deployer.dsl.importer.html#continuum_deployer.dsl.importer.importer.Importer.reset_app_modules">reset_app_modules() (continuum_deployer.dsl.importer.importer.Importer method)</a>
 </li>
       <li><a href="continuum_deployer.solving.html#continuum_deployer.solving.solver.Solver.reset_matching">reset_matching() (continuum_deployer.solving.solver.Solver method)</a>
 </li>
-      <li><a href="continuum_deployer.resources.html#continuum_deployer.resources.resource_entity.ResourceEntity">ResourceEntity (class in continuum_deployer.resources.resource_entity)</a>
-</li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="continuum_deployer.resources.html#continuum_deployer.resources.resource_entity.ResourceEntity">ResourceEntity (class in continuum_deployer.resources.resource_entity)</a>
+</li>
       <li><a href="continuum_deployer.resources.html#continuum_deployer.resources.resources.Resources">Resources (class in continuum_deployer.resources.resources)</a>
 </li>
       <li><a href="continuum_deployer.utils.html#continuum_deployer.utils.match_cli.Settings.resources">resources (continuum_deployer.utils.match_cli.Settings attribute)</a>
@@ -781,7 +838,7 @@
   <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="search.html" method="get">
-      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -803,7 +860,7 @@
       &copy;2020, Daniel Hass.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.2.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.2.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
     </div>
