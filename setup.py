@@ -17,6 +17,7 @@ version = {}
 with open("continuum_deployer/__init__.py") as fp:
     exec(fp.read(), version)
 
+print("jfdjksdfskjfnskjfnsdfns")
 setup(
     name='splab-continuum-deployer',
     version=version.get("app_version"),

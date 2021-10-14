@@ -12,14 +12,6 @@ continuum\_deployer.utils.config module
    :undoc-members:
    :show-inheritance:
 
-continuum\_deployer.utils.dummy module
---------------------------------------
-
-.. automodule:: continuum_deployer.utils.dummy
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
 continuum\_deployer.utils.exceptions module
 -------------------------------------------
 

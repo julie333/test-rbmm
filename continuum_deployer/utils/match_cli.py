@@ -22,6 +22,7 @@ from continuum_deployer.dsl.importer.helm import Helm
 from continuum_deployer.resources.resources import Resources
 from continuum_deployer.solving.greedy import Greedy
 from continuum_deployer.solving.sat import SAT
+from continuum_deployer.solving.rbmm import Rbmm
 from continuum_deployer.dsl.exporter.exporter import Exporter
 from continuum_deployer.dsl.exporter.kubernetes import Kubernetes
 
@@ -327,9 +328,9 @@ class MatchCli:
 <b>Choose a solver for the workload placement:</b>
 \t [0] <b>Greedy Solver</b> (sorts workloads and fills targets in a greedy fashion)
 \t [1] <b>SAT Solver</b> (offers various options for mathematical optimal placements)
-'''
+\t [2] <b>RBMM Solver</b> (offers various options for mathematical optimal placements) '''
 
-        _solvers = [Greedy, SAT]
+        _solvers = [Greedy, SAT, Rbmm]
 
         for plugin in plugins.plugin_manager.getPluginsOfCategory("Solver"):
             _solvers.append(plugin.plugin_object)

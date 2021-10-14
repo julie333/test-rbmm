@@ -63,6 +63,7 @@ def parse_resources(file):
     stream = open(file, 'r')
     resources = Resources()
     resources.parse(stream)
+    print("HEREEEEE")
     resources.print_resources()
 
 

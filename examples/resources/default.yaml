@@ -15,3 +15,12 @@ resources:
     memory: 4096
     labels:
       cloud: public
+
+#    app = [({"vulnerability": 0.8, "memory": 200, "runtime": "java"})];
+#        resources = [({"location": "intranet"}), ({"memory": 800, "location": "dmz"})]
+#        # dep_rules: deployment rules {a.factor: (f.factor, op, value)} (special value: IDENTITY)
+#        dep_rules = {
+#             "vulnerability": ("location", "=", "dmz"),
+#             "memory": ("memory", ">=", IDENTITY),
+#             "runtime": ("runtime", "=", IDENTITY)
+#        }

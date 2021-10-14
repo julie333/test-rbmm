@@ -32,6 +32,14 @@ class Greedy(Solver):
         :return: boolean flag representing the success of the placement attempt
         :rtype: bool
         """
+        # resources = [{
+        #     add_deployment: 123
+        # },
+        # {
+        #     add_deployment: 1321
+        # },
+        # ]
+
         for resource in resources:
             if resource.add_deployment(entity):
                 return True
@@ -43,7 +51,7 @@ class Greedy(Solver):
                 SettingValue(
                     'cpu', description='Sorts resources and workloads by cpu for greedy matching', default=True),
                 SettingValue(
-                    'memory', 'Sorts resources and workloads by memory for greedy matching'),
+                    'memory', 'Sorts resources and workloads by memory for greedy matching')
             ])
         ])
 

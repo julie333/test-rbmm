@@ -12,6 +12,30 @@ continuum\_deployer.solving.greedy module
    :undoc-members:
    :show-inheritance:
 
+continuum\_deployer.solving.rbmm module
+---------------------------------------
+
+.. automodule:: continuum_deployer.solving.rbmm
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+continuum\_deployer.solving.rbmm\_1210 module
+---------------------------------------------
+
+.. automodule:: continuum_deployer.solving.rbmm_1210
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+continuum\_deployer.solving.rbmm\_with\_acc\_rules module
+---------------------------------------------------------
+
+.. automodule:: continuum_deployer.solving.rbmm_with_acc_rules
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
 continuum\_deployer.solving.sat module
 --------------------------------------
 
