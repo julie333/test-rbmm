@@ -5,22 +5,16 @@
 
 resources:
   - name: node-1
-    cpu: 2
-    memory: 8192
+    cpu: 0.1
+    memory: 100
   - name: node-2
-    cpu: 3
-    memory: 2048
+    cpu: 0.3
+    memory: 535
   - name: node-3
-    cpu: 4
-    memory: 4096
+    cpu: 0.2
+    memory: 2048
+  - name: node-4
+    cpu: 2
+    memory: 540
     labels:
       cloud: public
-
-#    app = [({"vulnerability": 0.8, "memory": 200, "runtime": "java"})];
-#        resources = [({"location": "intranet"}), ({"memory": 800, "location": "dmz"})]
-#        # dep_rules: deployment rules {a.factor: (f.factor, op, value)} (special value: IDENTITY)
-#        dep_rules = {
-#             "vulnerability": ("location", "=", "dmz"),
-#             "memory": ("memory", ">=", IDENTITY),
-#             "runtime": ("runtime", "=", IDENTITY)
-#        }

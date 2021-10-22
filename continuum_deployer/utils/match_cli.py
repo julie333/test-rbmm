@@ -328,7 +328,7 @@ class MatchCli:
 <b>Choose a solver for the workload placement:</b>
 \t [0] <b>Greedy Solver</b> (sorts workloads and fills targets in a greedy fashion)
 \t [1] <b>SAT Solver</b> (offers various options for mathematical optimal placements)
-\t [2] <b>RBMM Solver</b> (offers various options for mathematical optimal placements) '''
+\t [2] <b>RBMM Solver</b> (offers rule-based matchmaker called RBMM that combines several decision factors and applies rules to them) '''
 
         _solvers = [Greedy, SAT, Rbmm]
 
@@ -339,7 +339,7 @@ class MatchCli:
             solver_chooser_text = '{}{}\n'.format(
                 solver_chooser_text, new_solver_option)
 
-        if not self.settings.solver:
+        if self.settings.solver is None:
             print_formatted_text(HTML(solver_chooser_text))
 
             _options = MatchCli._options_array_to_number_choices(_solvers)
@@ -371,7 +371,7 @@ class MatchCli:
 
         if not unset:
             self.automatch()
-            return
+            self.start_matching()
 
         click.echo('\n')
         click.echo('Configure solver settings:\n')
